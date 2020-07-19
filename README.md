@@ -1,6 +1,6 @@
 # Rubik's cube
-El proyecto consiste en un cubo gigante de rubik, donde cada cubo es otro cubo de rubik como se ve en la imagen 1, podemos desordenar el cubo grande las teclas correspondientes a cada cara de un cubo de rubik 
-![alt text](http://url/screenshots/firstLook.png)
+El proyecto consiste en un cubo gigante de rubik, donde cada cubo es otro cubo de rubik como se ve en la imagen, podemos desordenar el cubo grande las teclas correspondientes a cada cara de un cubo de rubik 
+![Rubik cube](https://github.com/Israel0806/rubik_cube/blob/master/screenshots/firstLook.PNG)
 
 ## Uso 🚀
 ### Windows
@@ -19,4 +19,7 @@ La lista de comandos esta dentro del programa en consola que se abre al ejecutar
 
 ## Cubos de rubik desordenados
 
-![alt text](http://url/screenshots/unsorted.png)
+![Unsorted cubes](https://github.com/Israel0806/rubik_cube/blob/master/screenshots/unsorted.PNG)
+
+## Solver
+Utilizamos el siguiente solver: https://github.com/jmm140330/Rubik
