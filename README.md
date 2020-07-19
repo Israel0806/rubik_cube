@@ -16,3 +16,7 @@ La lista de comandos esta dentro del programa en consola que se abre al ejecutar
 * Mover las caras del cubo general
 * Mover la camara manteniendo el click derecho
 * Desordenar el cubo general y y cada cubo de rubik individual
+
+## Cubos de rubik desordenados
+
+![alt text](http://url/to/screenshots/unsorted.png)
