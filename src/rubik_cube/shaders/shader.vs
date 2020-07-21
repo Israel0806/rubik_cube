@@ -4,19 +4,17 @@ layout (location = 1) in vec3 aNormal;
 layout (location = 2) in vec3 aColor;
 layout (location = 3) in vec2 aTexCoord;
 
-
 uniform mat4 model;
 uniform mat4 view;
 uniform mat4 projection;
 
-out vec3 Normal;
-out vec3 Color;
-out vec2 TexCoord;
+out VS_OUT {
+    vec3 Color;
+    vec2 texCoord;
+} vs_out;
 
-void main()
-{
-    Color = aColor;
-    Normal = aNormal;
-    TexCoord = aTexCoord;
-    gl_Position = projection * view * model * vec4(aPos, 1.0);
+void main() {
+    vs_out.Color = aColor;
+    vs_out.texCoord = aTexCoord;
+    gl_Position = projection * view * model * vec4(aPos, 1.0f);
 }
